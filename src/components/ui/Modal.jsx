@@ -7,6 +7,41 @@ export default function Modal({isOpen, setIsOpen, title, children}) {
     setIsOpen(false)
   }
 
+  // Here is the sample sarted from the transition
+
+  const num1 = 25;
+  const num2 = 35;
+
+  const sum = num1 + num2;
+
+  const avg = Math.max(num1, num2);
+
+  console.log(sum);
+  console.log(avg);
+
+
+
+  const details = {
+    name: "Shawon",
+    age: 27,
+    city: "Dhaka",
+    address: "Mirpur 10 Dhaka",
+    contact: "+8801715559977",
+    email: "shawon@gmail.com",
+    skills: ["Html", "Css", "JavaScript, ExpressJS" ],
+    hobbies: ["Reading", "Writing", "Listening"],
+
+  }
+
+  const { name, age, city, address, contact, email, skills, hobbies } = details;
+  console.log(age);
+  console.log(contact);
+  console.log(skills);
+
+
+
+  // Here is the sample code endpoint from the transition
+
   return (
     <>
  
